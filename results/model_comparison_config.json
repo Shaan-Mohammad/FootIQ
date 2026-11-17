@@ -1,0 +1,10 @@
+{
+    "selected_thresholds": {
+        "Logistic Regression": 0.2,
+        "Random Forest": 0.2,
+        "GBT": 0.2
+    },
+    "best_model": "Random Forest",
+    "selection_metric": "Test F1",
+    "test_f1": 0.3518
+}

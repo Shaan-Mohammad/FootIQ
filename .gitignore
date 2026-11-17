@@ -1,0 +1,52 @@
+# Operating system
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Maven and Java
+target/
+*.class
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+*.log
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed datasets
+data/bronze/*
+!data/bronze/.gitkeep
+
+data/silver/*
+!data/silver/.gitkeep
+
+data/gold/*
+!data/gold/.gitkeep
+
+# Generated project data and artifacts
+data/
+models/
+checkpoints/
+
+# Temporary recovery files
+python_history_recovery.txt
+
+# macOS and Python temporary files
+.DS_Store
+__pycache__/
+*.pyc
